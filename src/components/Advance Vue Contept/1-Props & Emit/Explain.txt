@@ -1,0 +1,9 @@
+
+✅Props & Emit (Parent-Child Communication) នៅក្នុង Vue 3
+
+=>  Vue 3 អនុញ្ញាតឱ្យអ្នកធ្វើការបញ្ជូនទិន្នន័យពី parent component ទៅ child component តាមរយៈ props និងបញ្ជូនព្រឹត្តិការណ៍មកពី child component ទៅ parent component តាមរយៈ emit។
+
+=>  ការប្រើ props និង emit ជាការអនុវត្តក្នុង Vue ដែលជួយសម្រួលការទំនាក់ទំនងរវាង components ដែលគ្រប់គ្រងទិន្នន័យ និងព្រឹត្តិការណ៍ពី parent ទៅ child និងត обратноពី child ទៅ parent ។
+
+✅Props - Passing Data from Parent to Child
+=> props ត្រូវបានប្រើសម្រាប់ការបញ្ជូនទិន្នន័យពី parent component ទៅ child component។ Parent អាចផ្តល់ជូន child គ្រប់គ្រងទិន្នន័យ ឬក៏អនុវត្តតាមគោលបំណងជាមួយ data ដែលអាចប្រើនៅក្នុង child។

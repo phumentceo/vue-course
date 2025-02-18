@@ -1,0 +1,25 @@
+✅ Provide/Inject (State Management Alternative) ក្នុង Vue 3
+=> ក្នុង Vue 3, Provide/Inject គឺជា alternative សម្រាប់ state management ដូចជា Vuex ឬ Pinia។ វាអាចប្រើសម្រាប់បញ្ជូន data ឬ function ពី parent component ទៅ child components ដោយគ្មានការផ្ញើ props តាមក្រុមហ៊ុន។
+
+1. Provide & Inject គឺជាអ្វី?
+✅ provide() → ប្រើនៅក្នុង parent component ដើម្បីផ្តល់ data ឬ function។
+✅ inject() → ប្រើនៅក្នុង child component ដើម្បីទទួល data ឬ function។
+
+➡️ វាប្រើ Reactive Data ដូចជា ref() ឬ reactive() ដើម្បីឱ្យ child components អាចទទួលបាន update នៅពេល data ផ្លាស់ប្តូរ។
+
+
+When to Use Provide/Inject?
+✅ប្រើ Provide/Inject នៅពេល
+   ✔ Component tree នៅក្រោមជាន់ច្រើន (បង្រៀន data អោយជម្រៅច្រើន)
+   ✔ ចង់ចែករំលែក state ពី Parent ទៅ Childs ជាច្រើន
+   ✔ មិនចង់ប្រើ props chaining (ជៀសវាងការផ្ញើ props តាមជាន់ច្រើន)
+   ✔ ចង់ប្រើ state management ខ្លីៗ (មិនចាំបាច់ Vuex/Pinia)
+
+
+
+📌 Summary (សង្ខេប)
+✅ provide() → Parent ផ្តល់ data ឬ function
+✅ inject() → Child ទទួល data ឬ function
+✅ ប្រើ ref() ឬ reactive() ដើម្បីធ្វើ state reactive
+✅ Inject function ដើម្បីអោយ child អាច update data
+✅ Inject default value ប្រសិនបើ parent មិន provide

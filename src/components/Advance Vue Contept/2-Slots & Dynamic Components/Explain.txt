@@ -1,0 +1,9 @@
+✅ Slots & Dynamic Components ក្នុង Vue 3
+=> Vue 3 មានលក្ខណៈសម្បត្តិ Slots និង Dynamic Components ដែលអាចជួយឱ្យ UI មានភាពបត់បែន និងអាចប្រើឡើងវិញបាន។
+
+
+1. Slots - បញ្ជូន Content ទៅ Child Components
+Slots ត្រូវបានប្រើសម្រាប់បញ្ជូន HTML content ឬ Components ពី parent ទៅ child។ Vue មាន 3 ប្រភេទនៃ Slots៖
+✅ Default Slot - បញ្ជូន content ទៅ child។
+✅ Named Slots - បញ្ជូន content ជាច្រើនប្រភេទ។
+✅ Scoped Slots - បញ្ជូន data ចេញពី child component ទៅ sl

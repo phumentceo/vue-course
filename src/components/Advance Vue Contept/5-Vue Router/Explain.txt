@@ -1,0 +1,12 @@
+✅Vue Router (For SPAs - Single Page Applications)
+=>  Vue Router គឺជា official routing library សម្រាប់ Vue.js ដែលអាចប្រើសម្រាប់បង្កើត Single Page Applications (SPA) ដោយគ្មានការផ្ទុកទំព័រឡើងវិញ (no full page reloads)។ វាអាចអាចបញ្ជូនអ្នកប្រើប្រាស់ពី route (path) មួយទៅ route (path) មួយដោយ Dynamic.
+
+
+1. Installation Vue Router
+ប្រសិនបើគម្រោង Vue មិនទាន់មាន Vue Router អ្នកអាចតំឡើងវាជាមុន៖
+  ✅npm install vue-router@4✅
+
+
+
+
+

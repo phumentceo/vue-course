@@ -1,0 +1,14 @@
+Vue 3 Lifecycle Hooks (onMounted, onUnmounted)
+Lifecycle Hooks នៅក្នុង Vue 3 ជាអ្នកកំណត់អំពីវដ្តនៃ Component ពីពេលបង្កើត (Created) រហូតដល់លុបចេញ (Unmounted)។ យើងប្រើ onMounted() និង onUnmounted() ដើម្បីធ្វើអំពើនៅពេល component ចូល និងចេញពី DOM។
+
+Lifecycle Hooks ក្នុង Vue 3
+
+  +onMounted (នៅពេល component បាន render លើ DOM)
+    =>  onMounted() ប្រើសម្រាប់ run code នៅពេល component បាន mounted លើ DOM (បន្ទាប់ពី Vue render UI លើ page)
+
+  +onUnmounted (នៅពេល component ត្រូវបានលុបចេញពី DOM)
+    =>  onUnmounted() ប្រើសម្រាប់ clean up event listeners ឬ API requests នៅពេល component ត្រូវបានលុបចេញ។
+
+  +onUpdated   (នៅពេល component បាន update)
+  -onBeforeMount (មុនពេល component ត្រូវបាន mount)
+  -onBeforeUnmount (មុនពេល component ត្រូវបាន unmount)
